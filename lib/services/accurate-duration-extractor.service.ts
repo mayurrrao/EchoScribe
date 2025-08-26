@@ -21,8 +21,7 @@ export class AccurateDurationExtractor {
         duration: true,
         skipCovers: true,
         skipPostHeaders: false, // Enable for better MOV support
-        includeChapters: false,
-        mergeTagHeaders: false
+        includeChapters: false
       })
       
       const duration = metadata.format.duration
