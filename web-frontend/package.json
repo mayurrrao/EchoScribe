@@ -1,0 +1,45 @@
+{
+  "name": "echoscribe-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "@google/generative-ai": "^0.24.1",
+    "@heroicons/react": "^2.0.18",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/fluent-ffmpeg": "^2.1.27",
+    "autoprefixer": "^10.0.1",
+    "axios": "^1.6.0",
+    "ffprobe-static": "^3.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "formidable": "^3.5.4",
+    "framer-motion": "^10.16.4",
+    "music-metadata": "^11.8.3",
+    "next": "14.0.0",
+    "node-ffprobe": "^3.0.0",
+    "postcss": "^8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "recharts": "^3.1.2",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "typescript": "^5"
+  }
+}
