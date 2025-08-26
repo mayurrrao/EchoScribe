@@ -3,7 +3,7 @@
 A modern web application for AI-powered audio and video transcription with comprehensive speech analytics.
 
 ##  Live Link  
-🔗 [EchoScribe](https://echoscribe-5kls.onrender.com/#about)
+🔗 [EchoScribe](https://echoscribe-jrje.onrender.com)
 
 ## Features
 
