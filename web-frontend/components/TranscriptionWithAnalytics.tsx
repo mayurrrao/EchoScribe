@@ -319,6 +319,7 @@ export default function TranscriptionWithAnalytics({
   }
 
   // Calculate Speech Pace Consistency - measures how steady the speaking rhythm is
+  // Updated: Replaces old System Analysis with meaningful pace analysis
   const calculatePaceConsistency = (analytics: SpeechAnalytics, transcript: string): { score: number, feedback: string, category: string } => {
     if (!analytics || !transcript) return { score: 0, feedback: 'No data available', category: 'Unknown' }
 
