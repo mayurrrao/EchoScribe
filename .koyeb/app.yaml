@@ -1,0 +1,23 @@
+name: video-transcriber-web
+services:
+  - name: web
+    git:
+      branch: main
+      build_command: npm install && npm run build
+      run_command: npm start
+    instance_types:
+      - free
+    regions:
+      - fra
+    env:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        value: !secret gemini_api_key
+    ports:
+      - port: 3000
+        protocol: http
+    health_check:
+      http:
+        port: 3000
+        path: /

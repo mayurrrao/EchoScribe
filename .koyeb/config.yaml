@@ -1,0 +1,33 @@
+# Koyeb configuration for Next.js deployment
+name: echoscribe
+
+# Build configuration
+build:
+  commands:
+    - npm ci
+    - npm run build
+
+# Runtime configuration  
+run:
+  command: npm start
+  
+# Environment variables (you'll set these in Koyeb dashboard)
+env:
+  - NODE_ENV=production
+  
+# Health check
+health_check:
+  http:
+    path: /api/test
+    port: 3000
+    
+# Resource allocation (free tier)
+instances:
+  min: 1
+  max: 1
+  
+# Port configuration
+ports:
+  - port: 3000
+    protocol: http
+    public: true
