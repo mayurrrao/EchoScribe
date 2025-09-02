@@ -39,18 +39,9 @@ A modern web application for AI-powered audio and video transcription with compr
 - **Next.js 14** - React-based full-stack framework
 - **React 18** - Component-based user interface
 - **TypeScript** - Type-safe JavaScript development
-- **Tailwind CSS** - Utility-first CSS framework
 
 ### AI & Processing
 - **Google Gemini API** - Advanced language model for transcription
 - **FFmpeg.wasm** - Client-side media processing
 - **WebAssembly** - High-performance audio/video manipulation
 
-### Data Visualization
-- **Recharts** - React-based charting library
-- **Interactive Analytics** - Real-time data visualization
-
-### Additional Tools
-- **Formidable** - Server-side file upload processing
-- **music-metadata** - Audio/video metadata extraction
-- **Google Drive API** - Remote file access and processing
